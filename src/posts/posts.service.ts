@@ -9,13 +9,13 @@ import { Model } from 'mongoose';
 export class PostsService {
   constructor(@InjectModel(Post.name) private postModel: Model<Post>) {}
 
-  create(createPostDto: CreatePostDto) {
-    const createdPost = new this.postModel(createPostDto);
-    return createdPost.save();
+  async create(createPostDto: CreatePostDto): Promise<Post> {
+    const createdPost = await this.postModel.create(createPostDto);
+    return createdPost;
   }
 
-  findAll() {
-    return `This action returns all posts`;
+  async findAll() {
+    return this.postModel.find().exec();
   }
 
   findOne(id: number) {
