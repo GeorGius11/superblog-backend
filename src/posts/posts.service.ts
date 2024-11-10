@@ -20,14 +20,24 @@ export class PostsService {
 
   async findOne(id: string): Promise<Post> {
     const post = await this.postModel.findById(id).exec();
+
     if (!post) {
       throw new NotFoundException(`Post with ID '${id}' not found`);
     }
+
     return post;
   }
 
-  update(id: number, updatePostDto: UpdatePostDto) {
-    return `This action updates a #${id} post`;
+  async update(id: string, updatePostDto: UpdatePostDto): Promise<Post> {
+    const post = await this.postModel
+      .findByIdAndUpdate(id, updatePostDto, { new: true })
+      .exec();
+
+    if (!post) {
+      throw new NotFoundException(`Post with ID '${id}' not found`);
+    }
+
+    return post;
   }
 
   remove(id: number) {
