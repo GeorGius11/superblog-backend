@@ -40,7 +40,13 @@ export class PostsService {
     return post;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} post`;
+  async remove(id: string): Promise<Post> {
+    const deletedPost = await this.postModel.findByIdAndDelete(id).exec();
+
+    if (!deletedPost) {
+      throw new NotFoundException(`Post with ID '${id}' not found`);
+    }
+
+    return deletedPost;
   }
 }
