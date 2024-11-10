@@ -29,15 +29,15 @@ export class PostsService {
   }
 
   async update(id: string, updatePostDto: UpdatePostDto): Promise<Post> {
-    const post = await this.postModel
+    const updatedPost = await this.postModel
       .findByIdAndUpdate(id, updatePostDto, { new: true })
       .exec();
 
-    if (!post) {
+    if (!updatedPost) {
       throw new NotFoundException(`Post with ID '${id}' not found`);
     }
 
-    return post;
+    return updatedPost;
   }
 
   async remove(id: string): Promise<Post> {
