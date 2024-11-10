@@ -6,6 +6,8 @@ import {
   Patch,
   Param,
   Delete,
+  Query,
+  ParseIntPipe,
 } from '@nestjs/common';
 import { PostsService } from './posts.service';
 import { CreatePostDto } from './dto/create-post.dto';
@@ -21,8 +23,11 @@ export class PostsController {
   }
 
   @Get()
-  async findAll() {
-    return this.postsService.findAll();
+  async findAll(
+    @Query('page', ParseIntPipe) page = 1,
+    @Query('limit', ParseIntPipe) limit = 10,
+  ) {
+    return this.postsService.findAll(page, limit);
   }
 
   @Get(':id')

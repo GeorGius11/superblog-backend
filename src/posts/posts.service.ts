@@ -14,8 +14,17 @@ export class PostsService {
     return createdPost;
   }
 
-  async findAll(): Promise<Post[]> {
-    return this.postModel.find().exec();
+  async findAll(
+    page: number,
+    limit: number,
+  ): Promise<{ data: Post[]; total: number }> {
+    const total = await this.postModel.countDocuments();
+    const data = await this.postModel
+      .find()
+      .skip((page - 1) * limit)
+      .limit(limit)
+      .exec();
+    return { data, total };
   }
 
   async findOne(id: string): Promise<Post> {
