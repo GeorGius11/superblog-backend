@@ -14,7 +14,7 @@ export class PostsService {
     return createdPost;
   }
 
-  async findAll() {
+  async findAll(): Promise<Post[]> {
     return this.postModel.find().exec();
   }
 
