@@ -94,7 +94,7 @@ export class SeedsService {
             <h3>Effects on the Planet</h3>
             <p>Extreme weather events, sea-level rise, and biodiversity loss are some of the consequences of a warming planet.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-6.jpg',
     },
     {
       title: 'Beginner’s Guide to Investing in Stocks',
@@ -106,7 +106,7 @@ export class SeedsService {
             <p>The stock market fluctuates based on economic indicators, company performance, and investor sentiment.</p>
             <p>Research and patience are essential for successful investing.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-7.jpg',
     },
     {
       title: 'The Evolution of Technology Over the Last Decade',
@@ -121,7 +121,7 @@ export class SeedsService {
               <li>Social media altering communication.</li>
             </ul>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-8.jpg',
     },
     {
       title: 'Top Recipes for a Cozy Winter',
@@ -133,7 +133,7 @@ export class SeedsService {
             <h3>Classic Soups</h3>
             <p>Nothing says winter like a hot bowl of soup. Try hearty vegetable or chicken noodle for comfort.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-9.jpg',
     },
     {
       title: 'The Ultimate Guide to Personal Finance',
@@ -146,7 +146,7 @@ export class SeedsService {
             <h3>Investing for the Future</h3>
             <p>Investing allows your money to grow over time. Understanding different asset classes, such as stocks and bonds, can help you make informed investment choices.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-10.jpg',
     },
     {
       title: 'Mastering the Art of Cooking with Herbs and Spices',
@@ -162,7 +162,7 @@ export class SeedsService {
               <li>Cilantro for fresh, vibrant flavors.</li>
             </ul>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-11.jpg',
     },
     {
       title: 'The Importance of Mental Health Awareness',
@@ -174,7 +174,7 @@ export class SeedsService {
             <h3>Supporting Mental Health</h3>
             <p>Practices like therapy, meditation, and self-care can improve mental health.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-12.jpg',
     },
     {
       title: 'Exploring Renewable Energy Sources',
@@ -190,7 +190,7 @@ export class SeedsService {
               <li>Hydropower from flowing water.</li>
             </ul>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-13.jpg',
     },
     {
       title: 'A Guide to Minimalist Living',
@@ -201,7 +201,7 @@ export class SeedsService {
             <h3>Steps to Start</h3>
             <p>Begin by decluttering one area at a time and prioritizing experiences over material things.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-14.jpg',
     },
     {
       title: 'Top Tips for Effective Time Management',
@@ -216,7 +216,7 @@ export class SeedsService {
               <li>Use tools like calendars and to-do lists.</li>
             </ul>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-15.jpg',
     },
     {
       title: 'Understanding Cryptocurrency and Blockchain',
@@ -228,7 +228,7 @@ export class SeedsService {
             <h3>Blockchain Technology</h3>
             <p>Blockchain is the foundation of cryptocurrency, providing a decentralized ledger for secure transactions.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-16.jpg',
     },
     {
       title: 'Traveling Solo: A Complete Guide',
@@ -244,7 +244,7 @@ export class SeedsService {
               <li>Trust your instincts.</li>
             </ul>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-17.jpg',
     },
     {
       title: 'The Science of Sleep: Why It Matters',
@@ -259,7 +259,7 @@ export class SeedsService {
               <li>Create a relaxing bedtime routine.</li>
             </ul>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-18.jpg',
     },
     {
       title: 'A Beginner’s Guide to Gardening',
@@ -281,7 +281,7 @@ export class SeedsService {
             <h3>Getting Started</h3>
             <p>Use apps, take classes, and practice regularly for success.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-20.jpg',
     },
     {
       title: 'How to Build a Successful Career in Tech',
@@ -296,7 +296,7 @@ export class SeedsService {
               <li>Communication and teamwork.</li>
             </ul>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-21.jpg',
     },
     {
       title: 'Exploring the Basics of Photography',
@@ -308,7 +308,7 @@ export class SeedsService {
             <h3>Key Concepts</h3>
             <p>Mastering exposure, composition, and lighting will improve your photos.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-22.jpg',
     },
     {
       title: 'The History and Evolution of the Internet',
@@ -320,7 +320,7 @@ export class SeedsService {
             <h3>Key Milestones</h3>
             <p>From ARPANET to the World Wide Web, each advancement shaped the digital landscape.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-23.jpg',
     },
     {
       title: 'The Importance of Physical Fitness',
@@ -334,7 +334,7 @@ export class SeedsService {
               <li>Strength training for muscle maintenance.</li>
             </ul>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-24.jpg',
     },
     {
       title: 'Exploring Virtual Reality: The Future of Immersive Experiences',
@@ -347,7 +347,7 @@ export class SeedsService {
             <h3>The Future of VR</h3>
             <p>As technology advances, VR experiences will become even more realistic, enabling new ways to learn, explore, and connect with others.</p>
           `,
-      imageUrl: 'images/sample.jpg',
+      imageUrl: 'images/sample-25.jpg',
     },
   ];
 
