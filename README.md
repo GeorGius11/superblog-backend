@@ -16,13 +16,17 @@ This repository contains the backend services for the Super-Blog app, including 
 
 ## Project setup
 
+Clone the repository and install dependencies:
+
 ```bash
+$ git clone https://github.com/GeorGius11/superblog-backend.git
+$ cd superblog-backend
 $ npm install
 ```
 
 ## Compile and run the project
 
-Use the following commands to run the project:
+Use one of the following commands to run the project:
 
 ```bash
 # development
